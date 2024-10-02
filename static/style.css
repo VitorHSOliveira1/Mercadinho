@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.barra-superior, .barra-inferior {
+    background-color: pink;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.barra-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.barra-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+    padding: 0 25px;
+}
+
+button {
+    background: none;
+    border: none;   
+    padding: 0;  
+    outline: none; 
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    cursor: pointer;
+}

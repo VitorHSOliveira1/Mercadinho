@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rios Bravo</title>
+    <link rel="stylesheet" href="../static/style2.css">
+</head>
+<body>
+
+    <button id="voltar-setinha" onclick="redirectBack()">
+        <img src="../images/arrow-1829877_640.jpg" alt="setinha-rosa" width="30px" height="30px">
+    </button>
+
+    <div class="info">
+        <h2 id="nome">Rios Bravo</h2>
+        <h1 id="preco">59.99 R$</h1>
+        <button id="comprar" onclick="checkOut()">COMPRAR</button>
+        <h2 class="descricao">Descrição:</h2>
+        <p>Na maioria das vezes não é com você, cuidado com as lacradas frequentes, normalmente é instigado pela especie "Shirley"</p>
+    </div>
+
+    <img src="../images/Rios-Bravinho.jpg" alt="" height="500px" width="500" class="ibagem" >
+
+    <div class="barra-superior">
+        <h1>Mercadinho Emoções</h1>
+    </div>
+
+    <div class="barra-inferior"></div>
+
+    <script>
+        function redirectBack(){
+            window.location.href = '/index.html'
+        }
+
+        function checkOut(){
+            window.location.href = 'compra-finalizada.html';
+        }
+    </script>
+</body>
+</html>

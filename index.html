@@ -1,18 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercadinho-emoçoes</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Exemplo de Página</title>
+    <link rel="stylesheet" href="./static/style.css">
 </head>
-<header>
-    <h1>algo</h1>
-</header>
 <body>
-    <h1>algo</h1>
+
+    <script>
+        function redirectToAnaBrava() {
+            window.location.href = 'template/ana-brava.html';
+        };
+
+        function redirectToAnaFeliz(){
+            window.location.href = 'template/ana-feliz.html';
+        }
+
+        function redirectToAnaMeh(){
+            window.location.href = 'template/ana-indiferente.html';
+        }
+
+        function redirectToRiosFeliz(){
+            window.location.href = 'template/rios-feliz.html';
+        }
+
+        function redirectToRiosBravo(){
+            window.location.href = 'template/rios-bravo.html';
+        }
+    </script>
+
+    <div class="barra-superior">
+        <h1>Mercadinho Emoções</h1>
+    </div>
+
+    <div class="container">
+        <button id="aninha-braba" onclick="redirectToAnaBrava()">
+            <img src="./images/Ana-Bravinha.jpg" alt="" >
+            <h2>Ana Marcia Brava</h2>
+            <p>120.99 R$</p>
+        </button>
+
+        <button id="aninha-feliz" onclick="redirectToAnaFeliz()">
+            <img src="./images/Ana-Felizinha.jpg" alt="">
+            <h2>Ana marcia Feliz</h2>
+            <p>50.99 R$</p>
+        </button>
+
+        <button id="aninha-meh" onclick="redirectToAnaMeh()">
+            <img src="./images/Ana-Mehzinha.jpg" alt="" >
+            <h2>Ana Marcia Indiferente</h2>
+            <p>1.50 R$</p>
+        </button>
+
+        <button id="rioszinho-feliz" onclick="redirectToRiosFeliz()">
+            <img src="./images/Rios-Felizinho.jpg" alt="" >
+            <h2>Rios Feliz</h2>
+            <p>79.99 R$</p>
+        </button>
+
+        <button id="rioszinho-bravinho" onclick="redirectToRiosBravo()">
+            <img src="./images/Rios-Bravinho.jpg" alt="" >
+            <h2>Rios Bravo</h2>
+            <p>59.99 R$</p>
+        </button>
+    </div>
+
+    <div class="barra-inferior">
+    </div>
+
 </body>
-<footer>
-    <h1>algo</h1>
-</footer>
 </html>

@@ -1,0 +1,26 @@
+body{
+    position: relative;
+    background-color: pink;
+}
+
+#foto{
+    position: absolute;
+    left: 450px;
+    top: 0;
+}
+
+.agradecimento{
+    color: pink;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+#voltar-button{
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aninha Indiferente</title>
+    <link rel="stylesheet" href="../static/style2.css">
+</head>
+<body>
+
+    <button id="voltar-setinha" onclick="redirectBack()">
+        <img src="../images/arrow-1829877_640.jpg" alt="setinha-rosa" width="30px" height="30px">
+    </button>
+
+    <div class="info">
+        <h2 id="nome">Ana Marcia Indiferente</h2>
+        <h1 id="preco">1.50 R$</h1>
+        <button id="comprar" onclick="checkOut()">COMPRAR</button>
+        <h2 class="descricao">Descrição:</h2>
+        <p>Esse produto é o mais barato por um motivo, muito dificil de lidar, não é responsiva e normalmente vem com a variavel "entediada" ou "dor de cabeça</p>
+    </div>
+
+    <img src="../images/Ana-Mehzinha.jpg" alt="" height="500px" width="500" class="ibagem" >
+
+    <div class="barra-superior">
+        <h1>Mercadinho Emoções</h1>
+    </div>
+
+    <div class="barra-inferior"></div>
+
+    <script>
+        function redirectBack(){
+            window.location.href = '/index.html'
+        }
+
+        function checkOut(){
+            window.location.href = 'compra-finalizada.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aninha feliz</title>
+    <link rel="stylesheet" href="../static/style2.css">
+</head>
+<body>
+
+    <button id="voltar-setinha" onclick="redirectBack()">
+        <img src="../images/arrow-1829877_640.jpg" alt="setinha-rosa" width="30px" height="30px">
+    </button>
+
+    <div class="info">
+        <h2 id="nome">Ana Marcia Feliz</h2>
+        <h1 id="preco">50.99 R$</h1>
+        <button id="comprar" onclick="checkOut()">COMPRAR</button>
+        <h2 class="descricao">Descrição:</h2>
+        <p>Essa versão é muito volatil, normalmente vai ser responsivel a piadas e coisas do tipo</p>
+    </div>
+
+    <img src="../images/Ana-Felizinha.jpg" alt="" height="500px" width="500" class="ibagem" >
+
+    <div class="barra-superior">
+        <h1>Mercadinho Emoções</h1>
+    </div>
+
+    <div class="barra-inferior"></div>
+
+    <script>
+        function redirectBack(){
+            window.location.href = '/index.html'
+        }
+
+        function checkOut(){
+            window.location.href = 'compra-finalizada.html';
+        }
+    </script>
+</body>
+</html>
