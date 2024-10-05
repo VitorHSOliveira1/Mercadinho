@@ -3,64 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Página</title>
-    <link rel="stylesheet" href="./static/style.css">
+    <title>Mercadinho de Emoções</title>
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
 
     <script>
         function redirectToAnaBrava() {
-            window.location.href = 'template/ana-brava.html';
+            window.location.href = 'ana-brava.html';
         };
 
         function redirectToAnaFeliz(){
-            window.location.href = 'template/ana-feliz.html';
+            window.location.href = 'ana-feliz.html';
         }
 
         function redirectToAnaMeh(){
-            window.location.href = 'template/ana-indiferente.html';
+            window.location.href = 'ana-indiferente.html';
         }
 
         function redirectToRiosFeliz(){
-            window.location.href = 'template/rios-feliz.html';
+            window.location.href = 'rios-feliz.html';
+        }
+    
+
+        function redirectToCarrinho(){
+            window.location.href = 'carrinho.html';
         }
 
         function redirectToRiosBravo(){
-            window.location.href = 'template/rios-bravo.html';
+            window.location.href = 'rios-bravo.html';
         }
+        
     </script>
 
     <div class="barra-superior">
         <h1>Mercadinho Emoções</h1>
+        <button id="carrinho-button" onclick="redirectToCarrinho()"> <img src="../images/carrinho-de-compras.png" alt="carrinho" id="imagem-em-especifico"> <h2>carrinho</h2></button>
     </div>
 
     <div class="container">
         <button id="aninha-braba" onclick="redirectToAnaBrava()">
-            <img src="./images/Ana-Bravinha.jpg" alt="" >
+            <img src="../images/Ana-Bravinha.jpg" alt="" id="aninha-bravinha">
             <h2>Ana Marcia Brava</h2>
             <p>120.99 R$</p>
         </button>
 
         <button id="aninha-feliz" onclick="redirectToAnaFeliz()">
-            <img src="./images/Ana-Felizinha.jpg" alt="">
+            <img src="../images/Ana-Felizinha.jpg" alt="" id="aninha-felizinha">
             <h2>Ana marcia Feliz</h2>
             <p>50.99 R$</p>
         </button>
 
         <button id="aninha-meh" onclick="redirectToAnaMeh()">
-            <img src="./images/Ana-Mehzinha.jpg" alt="" >
+            <img src="../images/Ana-Mehzinha.jpg" alt="" id="aninha-mehzinha">
             <h2>Ana Marcia Indiferente</h2>
             <p>1.50 R$</p>
         </button>
 
         <button id="rioszinho-feliz" onclick="redirectToRiosFeliz()">
-            <img src="./images/Rios-Felizinho.jpg" alt="" >
+            <img src="../images/Rios-Felizinho.jpg" alt="" id="rioszinho-felizinho">
             <h2>Rios Feliz</h2>
             <p>79.99 R$</p>
         </button>
 
         <button id="rioszinho-bravinho" onclick="redirectToRiosBravo()">
-            <img src="./images/Rios-Bravinho.jpg" alt="" >
+            <img src="../images/Rios-Bravinho.jpg" alt="" id="rioszinho-bravinho">
             <h2>Rios Bravo</h2>
             <p>59.99 R$</p>
         </button>

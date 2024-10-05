@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+#voltar-setinha {
+    background-color: white;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    top: 100px; 
+    left: 10px;
+    z-index: 2; 
+}
+
+.botao-checkout{
+    position: absolute;
+    background-color: pink;
+    height: 50px;
+    width: 250px;
+    left: 43%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    bottom: 100px;
+    align-self: center;
+}
+
+.barra-superior, .barra-inferior {
+    background-color: pink;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.barra-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+.barra-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

@@ -41,8 +41,54 @@ button {
     outline: none; 
 }
 
-img {
+#aninha-bravinha {
     height: 350px;
     width: 250px;
     cursor: pointer;
 }
+
+#aninha-felizinha {
+    height: 350px;
+    width: 250px;
+    cursor: pointer;
+}
+
+#aninha-mehzinha {
+    height: 350px;
+    width: 250px;
+    cursor: pointer;
+}
+
+#rioszinho-felizinho {
+    height: 350px;
+    width: 250px;
+    cursor: pointer;
+}
+
+#rioszinho-bravinho {
+    height: 350px;
+    width: 250px;
+    cursor: pointer;
+}
+
+#carrinho-button {
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    height: 50px;  
+    width: 100px;   
+    background-color: pink;  
+    border-radius: 10px;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+}
+
+#carrinho-button img {
+    height: 30px;  
+    width: 30px;   
+    object-fit: contain;  
+}
+
+

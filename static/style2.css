@@ -50,7 +50,47 @@ body {
     margin-top: 10px; 
 }
 
-#comprar {
+#comprarAnaBrava {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: pink;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+#comprarAnaFeliz{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: pink;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+#comprarAnaIndiferente{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: pink;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+#comprarRiosFeliz{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: pink;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+#comprarRiosBravo{
     width: 120px;
     height: 40px;
     border: none;
