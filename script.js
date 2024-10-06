@@ -1,3 +1,4 @@
+
 const botaoCompraAnaBrava = document.querySelector('#comprarAnaBrava');
 const botaoComprarAnaFeliz = document.querySelector('#comprarAnaFeliz');
 const botaoComprarAnaIndiferente = document.querySelector('#comprarAnaIndiferente');
@@ -64,4 +65,4 @@ botaoComprarRiosFeliz.addEventListener("click", () => {
     addToCarrinho('Rios Feliz', 125.30);
     displayCartItems();
 });
-BV
+
