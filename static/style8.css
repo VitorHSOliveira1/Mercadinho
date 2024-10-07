@@ -4,6 +4,15 @@ body{
     align-items: center;
 }
 
+.itens-carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
 #voltar-setinha {
     background-color: white;
     position: absolute;
